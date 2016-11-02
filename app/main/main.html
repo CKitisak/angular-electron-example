@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <nav>
+                <a ui-sref="main.content1">content 1</a>
+                <a ui-sref="main.content2">content 2</a>
+            </nav>
+        </div>
+        <hr>
+        <div class="col-md-9">
+            <nav>
+                <input type="text" placeholder="search..." ng-model="main.search">
+            </nav>
+
+            <div ui-view></div>
+        </div>
+    </div>
+</div>
